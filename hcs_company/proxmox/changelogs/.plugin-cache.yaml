@@ -1,0 +1,51 @@
+objects: {}
+plugins:
+  become: {}
+  cache: {}
+  callback: {}
+  cliconf: {}
+  connection: {}
+  httpapi: {}
+  inventory: {}
+  lookup: {}
+  module:
+    ceph_volume:
+      description: Query ceph OSDs with ceph-volume
+      name: ceph_volume
+      namespace: ''
+      version_added: null
+    proxmox_acl:
+      description: Manages the Access Control List in Proxmox
+      name: proxmox_acl
+      namespace: ''
+      version_added: null
+    proxmox_group:
+      description: Manages groups in Proxmox
+      name: proxmox_group
+      namespace: ''
+      version_added: null
+    proxmox_query:
+      description: Uses pvesh to query Proxmox API
+      name: proxmox_query
+      namespace: ''
+      version_added: null
+    proxmox_role:
+      description: Manages the Access Control List in Proxmox
+      name: proxmox_role
+      namespace: ''
+      version_added: null
+    proxmox_storage:
+      description: Manages the storage in Proxmox
+      name: proxmox_storage
+      namespace: ''
+      version_added: null
+    proxmox_user:
+      description: Manages user accounts in Proxmox
+      name: proxmox_user
+      namespace: ''
+      version_added: null
+  netconf: {}
+  shell: {}
+  strategy: {}
+  vars: {}
+version: 1.1.0

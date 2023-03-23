@@ -1,0 +1,23 @@
+---
+changes:
+  minor_changes:
+    - proxmox_acl - Updated module references to proper collection namespace to allow resolving of module functions
+    - proxmox_group - Updated module references to proper collection namespace to allow resolving of module functions
+    - proxmox_query - Updated module references to proper collection namespace to allow resolving of module functions
+    - proxmox_role - Updated module references to proper collection namespace to allow resolving of module functions
+    - proxmox_storage - Updated module references to proper collection namespace to allow resolving of module functions
+    - proxmox_user - Updated module references to proper collection namespace to allow resolving of module functions
+    - ca_common - Updated module references to proper collection namespace to allow resolving of module functions
+    - pvesh - Updated module references to proper collection namespace to allow resolving of module functions
+  release_summary: 'This is the first minor release of the
+    ``hcs_company.proxmox`` collection.
+
+    This changelog contains all changes to the modules in this collection
+    that were added after the release of Ansible 2.9.0.
+
+    '
+fragments:
+  - 1.1.0.yml
+release_date: '2021-11-09'
+
+...
