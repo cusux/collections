@@ -1,2 +1,3 @@
 # collections
-The gathering of Ansible collections
+
+This repository contains Ansible collections.
