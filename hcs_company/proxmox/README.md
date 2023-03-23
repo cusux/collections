@@ -1,4 +1,4 @@
-# Ansible Collection - kpn_security.proxmox
+# Ansible Collection - hcs_company.proxmox
 
 ## Included content
 
